@@ -1,4 +1,7 @@
-ain()
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
 {
     int i,j,k=0;
     scanf("%d",&i);
@@ -24,3 +27,5 @@ ain()
     //printf("%d",i%j);
     }
 }
+
+
