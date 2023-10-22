@@ -20,10 +20,10 @@ main()
         printf("NO");
 
     //printf("%d",k);
-    if(k==0){
+    if(k==1){
         printf("NO");
     }
-    else if(k==1){
+    else if(k==0){
         printf("YES");
     }
 }
