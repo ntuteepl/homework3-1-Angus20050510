@@ -6,7 +6,7 @@ main()
     int i,k;
     scanf("%d",&i);
     if(i>1){
-        for(int j=2;j*j<=i;j++){
+        for(int j=2;j<i;j++){
             if(i%j==0){
                 k=0;
                 }
@@ -20,6 +20,7 @@ main()
         printf("NO");
 
     //printf("%d",k);
+    //printf("%d",j);
     if(k==0){
         printf("NO");
     }
